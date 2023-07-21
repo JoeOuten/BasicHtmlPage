@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <title>Registration Form</title>
+    <h1>Registration Form</h1>
+        <form action="/process" method="post">
+            <div>
+                <label>Fist Name:* </label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>Last Name:* </label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>Email Address:* </label>
+                <input type="text" name="email address">
+            </div>
+            <div>
+                <label>Password:* </label>
+                <input type="text" name="password">
+            </div>
+            <div>
+                <label>Confirm Password:* </label>
+                <input type="text" name="confirm password">
+            </div>
+            <div>
+                <label>Birthday: </label>
+                <input type="text" name="birthday" 
+                placeholder="mm/dd/yyyy..." >
+            </div>
+                <p> Gender Identity: </p>
+                    <input type="radio" name="font" value="Male"
+                    id="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" name="font" value="Famale"
+                    id="Female">
+                    <label for="Male">Female</label>
+                    <input type="radio" name="font" value="Non-binary"
+                    id="Male">
+                    <label for="Non-binary">Non-binary</label>
+                    <input type="radio" name="font" value="I prefer not to say"
+                    id="I prefer not to say">
+                    <label for="Male">I prefer not to say</label>
+                <p>A short description about myself:</p>
+            <textarea name="comment" cols="40" rows="3">
+            </textarea>
+                <p>Favorite Language:<select name="Favorite Language">
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>PHP</option>
+                </select>
+                </p>
+            <input type="Checkbox" name="accept" id="accept">
+            <label for="accept">Yes, I would like to receive periodic email updates</label>
+            
+            <div>
+            <form action="/process" method="post">
+            <input type="Submit" value="Create Account"
+            </div>
+            </form>
+            <p>* Indicates a required field</p>
+</body>
+</html>
